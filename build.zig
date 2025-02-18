@@ -52,7 +52,7 @@ pub fn build(b: *std.Build) void {
         }
     }
 
-    if (target.result.isDarwin()) {
+    if (target.result.os.tag.isDarwin()) {
         // MacOS: this must be defined for macOS 13.3 and older.
         lib.root_module.addCMacro("__kernel_ptr_semantics", "");
 
