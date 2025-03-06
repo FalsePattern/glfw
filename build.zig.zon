@@ -1,17 +1,9 @@
 .{
-    .name = "glfw",
-    .version = "0.0.0",
-    .paths = .{
-        "include/",
-        "src/",
-        "build.zig",
-        "build.zig.zon",
-        "CONTRIBUTORS.md",
-        "LICENSE.md",
-        "README.md",
-        "update.sh",
-        "verify.sh",
-    },
+    .name = .glfw,
+    .version = "3.4.0",
+    .fingerprint = 0x3bbe0a5cef9b4dd2,
+    .minimum_zig_version = "0.14.0",
+
     .dependencies = .{
         .xcode_frameworks = .{
             .url = "https://pkg.machengine.org/xcode-frameworks/9a45f3ac977fd25dff77e58c6de1870b6808c4a7.tar.gz",
@@ -33,5 +25,17 @@
             .hash = "1220e79da2d5efd5e9dd8b6453f83a9ec79534e2e203b3331766b81e49171f3db474",
             .lazy = true,
         },
+    },
+
+    .paths = .{
+        "include/",
+        "src/",
+        "build.zig",
+        "build.zig.zon",
+        "CONTRIBUTORS.md",
+        "LICENSE.md",
+        "README.md",
+        "update.sh",
+        "verify.sh",
     },
 }

@@ -2,7 +2,7 @@
 
 This is a fork of [glfw](https://github.com/glfw/glfw), packaged for Zig. Unnecessary files have been deleted, and the build system has been replaced with build.zig.
 
-_Looking for Zig bindings to GLFW?_ See [mach/glfw](https://github.com/hexops/mach-glfw).
+_Looking for Zig bindings to GLFW?_ See [falsepattern/zig-glfw](https://github.com/falsepattern/zig-glfw).
 
 ## Updating
 
@@ -17,7 +17,3 @@ For supply chain security reasons (e.g. to confirm we made no patches to the cod
 ```
 
 If nothing is printed, there is no diff. Deleted files, and changes to `README.md`, `build.zig`, `.github` CI files and `.gitignore` are ignored.
-
-## Issues
-
-Issues are tracked in the [main Mach repository](https://github.com/hexops/mach/issues?q=is%3Aissue+is%3Aopen+label%3Aglfw).
