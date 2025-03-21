@@ -1,7 +1,7 @@
 .{
-    .name = .glfw,
+    .name = .glfw_c,
     .version = "3.4.0",
-    .fingerprint = 0x3bbe0a5cef9b4dd2,
+    .fingerprint = 0x5e9aa37e18d8d2ff,
     .minimum_zig_version = "0.14.0",
 
     .dependencies = .{
